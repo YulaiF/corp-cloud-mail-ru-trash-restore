@@ -1,0 +1,15 @@
+{
+    "name": "corp-cloud-mail-ru-trash-restore",
+    "description": "Помощник по восстановлению корпоративной корзины майл.ру",
+    "version": "0.0.2",
+    "manifest_version": 3,
+    "icons": {},
+	"action": {
+        "default_popup":"popup.html"
+    },
+    "permissions": ["webRequest", "scripting", "activeTab"],
+	"host_permissions": [
+		"https://cloud.mail.ru/*"
+	],
+    "background":{}
+}
